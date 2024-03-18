@@ -10,7 +10,7 @@ extension = '.jpg'
 
 # Get a list of all files in the directory that match the prefix and extension
 files = [f for f in os.listdir(directory) if f.endswith(extension)]
-print(files)
+#print(files)
 # Sort the files to ensure the renaming is done in order
 files.sort()
 
